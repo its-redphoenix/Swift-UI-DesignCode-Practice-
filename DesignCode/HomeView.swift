@@ -14,7 +14,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            HStack {
+            HStack(spacing: 12) {
                 Text("Watching")
                     .font(.system(size: 28, weight: .bold))
                 

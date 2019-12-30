@@ -19,10 +19,11 @@
 		96E5E76723B85B730001F9A8 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E76623B85B730001F9A8 /* UpdateList.swift */; };
 		96E5E76923B86BF20001F9A8 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E76823B86BF20001F9A8 /* UpdateDetail.swift */; };
 		96E5E76B23B8A0490001F9A8 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E76A23B8A0490001F9A8 /* UpdateStore.swift */; };
+		96E5E76D23B8B5020001F9A8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E76C23B8B5020001F9A8 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9656274E23A814D3003B2888 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9656274E23A814D3003B2888 /* Design+Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design+Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9656275123A814D3003B2888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9656275323A814D3003B2888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9656275523A814D3003B2888 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		96E5E76623B85B730001F9A8 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		96E5E76823B86BF20001F9A8 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		96E5E76A23B8A0490001F9A8 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		96E5E76C23B8B5020001F9A8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 		9656274F23A814D3003B2888 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9656274E23A814D3003B2888 /* DesignCode.app */,
+				9656274E23A814D3003B2888 /* Design+Code.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +79,7 @@
 				96E5E76623B85B730001F9A8 /* UpdateList.swift */,
 				96E5E76823B86BF20001F9A8 /* UpdateDetail.swift */,
 				96E5E76A23B8A0490001F9A8 /* UpdateStore.swift */,
+				96E5E76C23B8B5020001F9A8 /* TabBar.swift */,
 				9656275723A814D6003B2888 /* Assets.xcassets */,
 				9656275C23A814D6003B2888 /* LaunchScreen.storyboard */,
 				9656275F23A814D6003B2888 /* Info.plist */,
@@ -110,7 +113,7 @@
 			);
 			name = DesignCode;
 			productName = DesignCode;
-			productReference = 9656274E23A814D3003B2888 /* DesignCode.app */;
+			productReference = 9656274E23A814D3003B2888 /* Design+Code.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -173,6 +176,7 @@
 				96E5E76323B620E80001F9A8 /* HomeView.swift in Sources */,
 				9656275423A814D3003B2888 /* SceneDelegate.swift in Sources */,
 				9656275623A814D3003B2888 /* ContentView.swift in Sources */,
+				96E5E76D23B8B5020001F9A8 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 68WS2M23VC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.designcode.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Design+Code";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,6 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 68WS2M23VC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.designcode.DesignCode;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Design+Code";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
